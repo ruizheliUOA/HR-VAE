@@ -1,7 +1,7 @@
 # HR-VAE
 Code for the paper "A Stable Variational Autoencoder for Text Modelling"
 
-https://www.inlg2019.com/assets/papers/61_Paper.pdf
+https://arxiv.org/pdf/1911.05343.pdf
 
 ## Environment
 Python 3.6+
