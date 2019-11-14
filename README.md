@@ -16,7 +16,8 @@ Pytorch 1.0+
 @inproceedings{li2019stable,
   title={A Stable Variational Autoencoder for Text Modelling},
   author={Li, Ruizhe and Li, Xiao and Lin, Chenghua and Collinson, Matthew and Mao, Rui},
-  booktitle={Proceedings of the 12nd International Conference on Natural Language Generation},
-  year={2019}
+  booktitle={The 12th International Conference on Natural Language Generation (INLG 2019)},
+  year={2019},
+  organization={ACL Anthology}
 }
 ```
