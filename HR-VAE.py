@@ -265,7 +265,7 @@ class Generator2(nn.Module):
 encoder = Encoder(voca_dim, emb_dim, hid_dim, 2, 0.5).to(device)
 decoder = Generator2(voca_dim, emb_dim, hid_dim, 2).to(device)
 opt = optim.Adam(list(encoder.parameters()) +
-                 list(decoder.parameters()), lr=lr, eps=1e-6)
+                 list(decoder.parameters()), lr=lr, eps=1e-6, weight_decay=1e-5)
 
 print(encoder)
 print(decoder)
